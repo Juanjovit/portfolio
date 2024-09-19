@@ -1,0 +1,128 @@
+@import '../../styles/colors';
+
+.container {
+  width: 100px;
+  margin: auto;
+  position: relative;
+
+  margin-bottom: 800px;
+}
+
+.invertedTriangle1 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 86.6px; // Adjust height to match the triangle height
+  background: linear-gradient(
+    to top,
+    $synthwave-F1,
+    $synthwave-F2,
+    $synthwave-F3,
+    $synthwave-F4
+  );
+  clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+}
+
+.invertedTriangle2 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 86.6px; // Adjust height to match the triangle height
+  background: linear-gradient(to top, $synthwave-G2, $synthwave-G3);
+  clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+}
+
+.invertedTriangle3 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 86.6px; // Adjust height to match the triangle height
+  background: linear-gradient(to top, $synthwave-C2, $synthwave-C3);
+  clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+}
+
+.invertedTriangle4 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 86.6px; // Adjust height to match the triangle height
+  background: linear-gradient(
+    to bottom,
+    $synthwave-H1,
+    $synthwave-H2,
+    $synthwave-H3
+  );
+  clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+}
+
+.invertedTriangle5 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 86.6px; // Adjust height to match the triangle height
+  background: linear-gradient(to top, $synthwave-N1, $synthwave-N2);
+  clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+}
+
+.triangleOverlay1 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 4px; // Adjust height to match the triangle height
+  background-color: $synthwave-black;
+  top: 8px;
+}
+
+.triangleOverlay2 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 4px; // Adjust height to match the triangle height
+  background-color: $synthwave-black;
+  top: 19px;
+}
+
+.triangleOverlay3 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 4px; // Adjust height to match the triangle height
+  background-color: $synthwave-black;
+  top: 29px;
+}
+
+.triangleOverlay4 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 4px; // Adjust height to match the triangle height
+  background-color: $synthwave-black;
+  top: 39px;
+}
+
+.triangleOverlay5 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 4px; // Adjust height to match the triangle height
+  background-color: $synthwave-black;
+  top: 49px;
+}
+
+.triangleOverlay6 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 4px; // Adjust height to match the triangle height
+  background-color: $synthwave-black;
+  top: 60px;
+}
+
+.triangleOverlay7 {
+  position: absolute;
+  margin: auto;
+  width: 100px; // You can adjust the width as needed
+  height: 4px; // Adjust height to match the triangle height
+  background-color: $synthwave-black;
+  top: 71px;
+}

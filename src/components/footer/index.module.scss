@@ -1,0 +1,7 @@
+@import '../../styles/colors';
+
+.background {
+  height: 300px;
+
+  background: linear-gradient(to top, $synthwaveSoft-B1, $synthwave-black);
+}

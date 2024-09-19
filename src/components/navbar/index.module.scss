@@ -1,0 +1,105 @@
+@import '../../styles/colors';
+@import '../../styles/index.scss';
+
+.navbar {
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  background: $transparent-card;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.navbarContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+  width: 85vw;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+  flex-grow: 0; // Prevent the list from growing and consuming all horizontal space
+
+  //  width: 100%;
+}
+
+.decoration {
+  height: 2px;
+  flex-grow: 1;
+  background-image: linear-gradient(
+    to right,
+    // Changes the direction of the gradient to horizontal
+    $synthwave-C1 5%,
+    $synthwave-C2 50%,
+    $synthwave-C3 80%
+  );
+  box-shadow:
+    0px 0px 15px $synthwave-C1,
+    0px 0px 15px $synthwave-C2,
+    0px 0px 15px $synthwave-C3;
+}
+
+@include media-breakpoint-up(md) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 7vw;
+
+    background: transparent;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+
+  .navbarContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+  }
+
+  .list {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+  }
+
+  .decoration {
+    flex-grow: 1;
+    width: 2px;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      to bottom,
+      $synthwave-C1 5%,
+      $synthwave-C2 50%,
+      $synthwave-C3 80%
+    );
+
+    box-shadow:
+      0px 0px 15px $synthwave-C1,
+      0px 0px 15px $synthwave-C2,
+      0px 0px 15px $synthwave-C3;
+  }
+}

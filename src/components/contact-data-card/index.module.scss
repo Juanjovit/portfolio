@@ -1,0 +1,25 @@
+@import '../../styles/colors';
+
+.card {
+  cursor: pointer;
+
+  background-color: transparent;
+  border: none;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  padding: 10px;
+
+  transition: 1s;
+}
+
+.card:hover {
+  box-shadow:
+    0 0 10px $synthwaveSuperSoft-N1,
+    0 0 10px $synthwaveSuperSoft-N2;
+}
+
+.data {
+  color: $white-4;
+  margin: 0;
+}

@@ -1,0 +1,32 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.badgeContainer {
+  display: inline-block;
+  padding: 1px;
+  background-image: linear-gradient(
+    to bottom right,
+    $synthwaveSoft-N1,
+    $synthwaveSoft-N2
+  );
+
+  border-radius: 10px;
+
+  margin-right: 5px;
+}
+
+.badgeText {
+  color: $white-5;
+  font-size: $font-size-12;
+  text-align: start;
+
+  border-radius: 10px;
+
+  padding: 1px 12px 1px 12px;
+
+  margin: 0;
+
+  background-color: $synthwave-black;
+
+  cursor: default;
+}

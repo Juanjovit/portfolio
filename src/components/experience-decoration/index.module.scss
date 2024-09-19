@@ -1,0 +1,17 @@
+@import '../../styles/colors';
+
+.line {
+  background-image: radial-gradient(
+    circle,
+    $synthwaveSuperSoft-N2,
+    $synthwaveSuperSoft-N1,
+    rgba(0, 0, 0, 0)
+  );
+
+  flex-grow: 1;
+  min-width: 1px;
+  max-width: 1px;
+  border-radius: 10px;
+
+  transition: 0.5s;
+}

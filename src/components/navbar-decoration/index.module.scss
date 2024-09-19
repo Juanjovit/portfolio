@@ -1,0 +1,37 @@
+@import '../../styles/colors';
+@import '../../styles/index.scss';
+
+.decoration {
+  height: 2px;
+  flex-grow: 1;
+  // background-image: linear-gradient(
+  //   to right,
+  //   // Changes the direction of the gradient to horizontal
+  //   $synthwave-C1 5%,
+  //   $synthwave-C2 50%,
+  //   $synthwave-C3 80%
+  // );
+  // box-shadow:
+  //   0px 0px 15px $synthwave-C1,
+  //   0px 0px 15px $synthwave-C2,
+  //   0px 0px 15px $synthwave-C3;
+}
+
+@include media-breakpoint-up(md) {
+  .decoration {
+    flex-grow: 1;
+    width: 2px;
+    border-radius: 10px;
+    // background-image: linear-gradient(
+    //   to bottom,
+    //   $synthwave-C1 5%,
+    //   $synthwave-C2 50%,
+    //   $synthwave-C3 80%
+    // );
+
+    // box-shadow:
+    //   0px 0px 15px $synthwave-C1,
+    //   0px 0px 15px $synthwave-C2,
+    //   0px 0px 15px $synthwave-C3;
+  }
+}

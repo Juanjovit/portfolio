@@ -1,0 +1,35 @@
+@import '../../styles/colors';
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.row {
+  align-items: center;
+  margin: auto;
+}
+
+.col {
+  width: 50px;
+}
+
+.icon {
+  color: $white-1;
+}
+
+.react:hover {
+  color: #53c1de;
+}
+
+.vue:hover {
+  color: #4dba87;
+}
+
+.bootstrap:hover {
+  color: #563d7c;
+}
+
+.scss:hover {
+  color: #cd6799;
+}

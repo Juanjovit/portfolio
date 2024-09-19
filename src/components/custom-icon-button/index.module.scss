@@ -1,0 +1,103 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/index.scss';
+
+.containerStyle {
+  position: relative;
+  display: inline-block;
+}
+
+.navButton {
+  display: flex;
+  margin: auto;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 16px;
+  margin-left: 16px;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  background: none;
+  border: none;
+  transition: 0.5s;
+}
+
+.navButton:hover {
+  border-radius: 50%;
+  box-shadow:
+    0px -5px 15px $synthwave-N2,
+    0px 5px 15px $synthwave-N1;
+}
+
+.icon {
+  color: $white-1;
+}
+
+.customTooltip {
+  opacity: 0;
+
+  z-index: 1;
+
+  min-width: 100px;
+  white-space: nowrap;
+  padding: 5px 10px 5px 10px;
+
+  border-radius: 6px;
+
+  background-color: $synthwave-black-transparent;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+
+  box-shadow:
+    0 0px 15px $synthwaveSuperSoft-N1,
+    0 0px 15px $synthwaveSuperSoft-N2;
+
+  color: $white-3;
+
+  font-size: $font-size-12;
+  text-align: center;
+
+  position: absolute;
+  bottom: 17px;
+  left: 55px;
+
+  transition: 0.5s;
+}
+
+@include media-breakpoint-up(sm) {
+  .navButton {
+    display: flex;
+    margin: auto;
+    margin-right: 16px;
+    margin-left: 16px;
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    background: none;
+    border: none;
+
+    transition: 0.5s;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .navButton {
+    &:hover {
+      box-shadow:
+        0px -5px 15px $synthwave-N2,
+        0px 5px 15px $synthwave-N1;
+
+      & + .customTooltip {
+        opacity: 1;
+      }
+    }
+  }
+}

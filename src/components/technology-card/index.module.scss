@@ -1,0 +1,15 @@
+@import '../../styles/colors';
+
+.card {
+  background-color: transparent;
+  border: none;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  padding: 10px;
+}
+
+.text {
+  color: $white-3;
+  margin: 0;
+}

@@ -1,0 +1,34 @@
+@import '../../styles/colors';
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.row {
+  align-items: center;
+  margin: auto;
+}
+
+.col {
+  width: 50px;
+  min-width: 109px;
+
+  padding: 0;
+}
+
+.icon {
+  color: $white-1;
+}
+
+.nodejs:hover {
+  color: #417e38;
+}
+
+.php:hover {
+  color: #6280b6;
+}
+
+.laravel:hover {
+  color: #ff2d20;
+}

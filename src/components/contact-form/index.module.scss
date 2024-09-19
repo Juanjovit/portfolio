@@ -1,0 +1,88 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.container {
+  padding: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 30px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 30px;
+}
+
+.label {
+  margin: 0;
+  margin-bottom: 5px;
+  margin-right: auto;
+
+  font-size: $font-size-18;
+  line-height: $line-height-normal;
+
+  color: $white-2;
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  line-height: $line-height-normal;
+  background-color: transparent;
+  font-size: $font-size-16;
+  color: $white-4;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  outline: none;
+  margin: 0;
+  padding: 10px;
+  transition: 1s;
+
+  &::placeholder {
+    color: #888;
+  }
+
+  &:hover {
+    box-shadow:
+      0 0 10px $synthwaveSoft-N1,
+      0 0 10px $synthwaveSoft-N2;
+  }
+
+  &:focus {
+    box-shadow:
+      0 0 10px $synthwave-N1,
+      0 0 10px $synthwave-N2;
+  }
+
+  &:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px $synthwave-black inset !important;
+    -webkit-text-fill-color: $white-4 !important;
+  }
+}
+
+.textarea::-webkit-scrollbar {
+  width: 1px;
+}
+
+.textarea::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, $synthwave-N1, $synthwave-N2);
+  box-shadow:
+    0 0px 15px $synthwave-N1,
+    0 0px 15px $synthwave-N2;
+}
+
+.textarea::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, $synthwave-A1, $synthwave-A1);
+  box-shadow:
+    0 0px 15px $synthwave-A1,
+    0 0px 15px $synthwave-A1;
+}

@@ -1,0 +1,23 @@
+@import '../../styles/colors';
+
+.li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.decoration {
+  height: 1px;
+  width: 100%;
+  margin: auto;
+  background-image: radial-gradient(
+    circle,
+    $synthwaveSuperSoft-N2,
+    $synthwaveSuperSoft-N1,
+    rgba(0, 0, 0, 0)
+  );
+}

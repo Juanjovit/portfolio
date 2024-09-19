@@ -1,0 +1,79 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.buttonComplete {
+  animation: pulse 3s infinite;
+}
+
+.buttonComplete:hover {
+  box-shadow:
+    0 0 10px $synthwave-N1,
+    0 0 10px $synthwave-N2 !important;
+}
+
+.buttonSent {
+  animation: successPulse 3s infinite;
+}
+
+.button {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  color: $white-1;
+  font-weight: 500;
+  font-size: $font-size-other-l;
+
+  height: 70px;
+
+  transition: 1.2s;
+}
+
+.button:hover {
+  color: transparent;
+
+  -webkit-background-clip: text;
+  background-clip: text; // Standard syntax (not fully supported in all browsers)
+
+  background-image: linear-gradient(to bottom, $synthwave-N1, $synthwave-N2);
+
+  text-decoration: none;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow:
+      0 0 10px $synthwaveSuperSoft-N1,
+      0 0 10px $synthwaveSuperSoft-N2;
+  }
+  50% {
+    box-shadow:
+      0 0 10px $synthwaveSoft-N1,
+      0 0 10px $synthwaveSoft-N2;
+  }
+  100% {
+    box-shadow:
+      0 0 10px $synthwaveSuperSoft-N1,
+      0 0 10px $synthwaveSuperSoft-N2;
+  }
+}
+
+@keyframes successPulse {
+  0% {
+    box-shadow:
+      0 0 10px $synthwaveSuperSoft-S1,
+      0 0 10px $synthwaveSuperSoft-S2;
+  }
+  50% {
+    box-shadow:
+      0 0 10px $synthwaveSoft-S1,
+      0 0 10px $synthwaveSoft-S2;
+  }
+  100% {
+    box-shadow:
+      0 0 10px $synthwaveSuperSoft-S1,
+      0 0 10px $synthwaveSuperSoft-S2;
+  }
+}

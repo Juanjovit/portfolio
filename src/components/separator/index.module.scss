@@ -1,0 +1,10 @@
+@import '../../styles/colors';
+
+.separator {
+  height: 1px;
+
+  background-image: linear-gradient(to bottom, $synthwave-N1, $synthwave-N2);
+  box-shadow:
+    0 0px 15px $synthwave-N1,
+    0 0px 15px $synthwave-N2;
+}

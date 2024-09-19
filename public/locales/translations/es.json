@@ -1,0 +1,150 @@
+{
+  "Navbar": {
+    "AboutMe": {
+      "Tooltip": "Sobre mí"
+    },
+    "Skills": {
+      "Tooltip": "Skills"
+    },
+    "Experience": {
+      "Tooltip": "Experiencia"
+    },
+    "MyWork": {
+      "Tooltip": "Mis proyectos"
+    },
+    "ContactMe": {
+      "Tooltip": "Contactame"
+    }
+  },
+  "ProfileCard": {
+    "Title": "Juanjo Vitali",
+    "SubTitle": "Desarrollador Web",
+    "DownloadCV": "Descargar CV"
+  },
+  "AboutMeSection": {
+    "Title": "Sobre Mi",
+    "Text1": "¡Hola! Soy Juanjo, desarrollador web full-stack. Me gusta mucho crear sitios web y trabajar en proyectos innovadores. Tengo experiencia tanto en desarrollo front-end como back-end, pero me especializo en el front-end, siendo React mi framework favorito.",
+    "Text2": "Me considero bastante versátil y me siento cómodo trabajando con varios lenguajes de programación. Siempre estoy abierto a aprender nuevos según sea necesario para mantenerme al día con las nuevas tecnologías.",
+    "DataList": {
+      "FullName": { "Title": "Nombre Completo", "Data": "Juan José Vitali" },
+      "Country": { "Title": "Pais", "Data": "Argentina" },
+      "Phone": { "Title": "Telefono" },
+      "Email": { "Title": "Email" }
+    }
+  },
+  "SkillsSection": {
+    "Title": "Skills",
+    "CoreWebTechnologies": "Tecnologías Web Básicas",
+    "FrontendFrameworksAndLibraries": "Frameworks y Bibliotecas de Frontend",
+    "BackendTechnologies": "Tecnologías de Backend",
+    "Databases": "Bases de Datos",
+    "VersionControl": "Control de Versiones",
+    "DesignTools": "Herramientas de Diseño",
+    "Testing": "Testing",
+    "Languages": {
+      "Title": "Idiomas",
+      "Es": "Español (Nativo)",
+      "En": "Inglés (Avanzado)"
+    }
+  },
+  "ExperienceSection": {
+    "Experience": {
+      "Title": "Experiencia",
+      "ExperienceData": [
+        {
+          "date": "2023 - 2024",
+          "role": "Desarrollador Web Fullstack",
+          "company": "Talentech",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+        },
+        {
+          "date": "2022 - 2023",
+          "role": "Desarrollador Web Front-end",
+          "company": "Talentech",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+        },
+        {
+          "date": "2021",
+          "role": "Profesor de educación física en escuela primaria",
+          "company": "Colegio Crear",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+        },
+        {
+          "date": "2020",
+          "role": "Profesor de GYM modalidad virtual",
+          "company": "Davinci",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+        },
+        {
+          "date": "2019",
+          "role": "Profesor en GYM",
+          "company": "Instituto Santa Rosa",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+        }
+      ]
+    },
+    "Studies": {
+      "Title": "Estudios",
+      "StudiesData": [
+        {
+          "date": "2021 - 2023",
+          "role": "Carrera de Diseño Web",
+          "company": "Davinci",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+        },
+        {
+          "date": "2020",
+          "role": "Curso de Diseño Web",
+          "company": "Davinci",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+        },
+        {
+          "date": "2016 - 2019",
+          "role": "Profesorado en educación física",
+          "company": "Instituto Santa Rosa",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+        }
+      ]
+    }
+  },
+  "MyWorkSection": {
+    "Title": "Mis Proyectos",
+    "Filters": {
+      "All": "todo",
+      "Work": "trabajo",
+      "Study": "estudio"
+    },
+    "WorkData": [
+      {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero facilis dicta ex non sint itaque accusantium excepturi magnam debitis minus.",
+        "title": "Item de trabajo 1",
+        "type": "trabajo",
+        "technologies": ["React", "Prisma", "Next.JS"],
+        "image": "workitem1.png",
+        "alt": "Descriptive alternate text for image 1",
+        "webSiteUrl": "https://github.com/Juanjovit",
+        "githubUrl": "https://github.com/Juanjovit"
+      },
+      {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero facilis dicta ex non sint itaque accusantium excepturi.",
+        "title": "Item de trabajo 2",
+        "type": "estudio",
+        "technologies": ["Html", "CSS", "JavaScript"],
+        "image": "workitem2.png",
+        "alt": "Descriptive alternate text for image 2",
+        "webSiteUrl": "https://github.com/Juanjovit",
+        "githubUrl": "https://github.com/Juanjovit"
+      },
+      {
+        "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente pariatur voluptas sit nam similique velit sed re.",
+        "title": "Item de trabajo 3",
+        "type": "estudio",
+        "technologies": ["PHP"],
+        "image": "workitem3.png",
+        "alt": "Descriptive alternate text for image 3",
+        "webSiteUrl": "https://github.com/Juanjovit",
+        "githubUrl": "https://github.com/Juanjovit"
+      }
+    ]
+  }
+}

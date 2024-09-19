@@ -1,0 +1,137 @@
+@import '../../styles/colors';
+
+//TODO JJV Delete unused fonts
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+@font-face {
+  font-family: 'Streamster';
+  src: url('../../fonts/STREAMSTER.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.background {
+  background-color: $dark-background;
+}
+
+.text {
+  color: $turquoise2;
+  font-family: 'Streamster', sans-serif;
+}
+
+.gradientText {
+  font-family: 'Streamster', sans-serif;
+  font-size: 4rem;
+  // font-weight: bold; // Makes the gradient more visible
+  color: transparent; // Hide the text color to show the gradient
+
+  -webkit-background-clip: text; // Apply gradient to the text (WebKit browsers)
+  background-clip: text; // Standard syntax (not fully supported in all browsers)
+
+  /////////////////////////////////////////////////////////
+
+  background-image: linear-gradient(to bottom, $synthwave-A1, $synthwave-A2);
+
+  background-image: linear-gradient(
+    to top,
+    $synthwave-B2 50%,
+    $synthwave-B1 100%
+  );
+
+  background-image: linear-gradient(
+    to bottom,
+    $synthwave-C1 5%,
+    $synthwave-C2 50%,
+    $synthwave-C3 80%
+  );
+
+  background-image: linear-gradient(to bottom, $synthwave-D1, $synthwave-D2);
+
+  background-image: linear-gradient(to bottom, $synthwave-N1, $synthwave-N2);
+
+  background-image: linear-gradient(
+    to top,
+    $synthwave-F1,
+    $synthwave-F2,
+    $synthwave-F3,
+    $synthwave-F4
+  );
+
+  background-image: linear-gradient(to top, $synthwave-G2, $synthwave-G3);
+
+  background-image: linear-gradient(to top, $synthwave-C2, $synthwave-C3);
+
+  background-image: linear-gradient(
+    to bottom,
+    $synthwave-H1,
+    $synthwave-H2,
+    $synthwave-H3
+  );
+
+  background-image: linear-gradient(to top, $synthwave-N1, $synthwave-N2);
+
+  ////////////////////////////////////////////////////
+}
+
+.turquoiseLine {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  width: 100%;
+  height: 5px;
+  background-color: $turquoise;
+}
+
+.turquoiseLine2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  width: 100%;
+  height: 5px;
+  background-color: $turquoise2;
+}
+
+.turquoiseLine3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  width: 100%;
+  height: 5px;
+  background-color: $turquoise3;
+}
+
+.turquoiseLine4 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  width: 100%;
+  height: 5px;
+  background-color: $turquoise4;
+}
+
+.turquoiseLine5 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  width: 100%;
+  height: 5px;
+  background-color: $turquoise5;
+}
+
+.turquoiseLine6 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  width: 100%;
+  height: 5px;
+  background-color: $turquoise6;
+}
+
+.orangeLine {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  width: 100%;
+  height: 5px;
+  background-color: $orange;
+}

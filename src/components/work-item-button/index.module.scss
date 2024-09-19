@@ -1,0 +1,21 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.button {
+  background: transparent !important;
+  border: none;
+}
+
+.icon {
+  border-radius: 50%;
+  color: $white-1;
+
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  box-shadow:
+    0px -5px 15px $synthwave-N2,
+    0px 5px 15px $synthwave-N1;
+}

@@ -1,0 +1,34 @@
+@import '../../styles/colors';
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.row {
+  align-items: center;
+  margin: auto;
+}
+
+.col {
+  width: 50px;
+  min-width: 109px;
+
+  padding: 0;
+}
+
+.icon {
+  color: $white-1;
+}
+
+.html5:hover {
+  color: #e44d26;
+}
+
+.css:hover {
+  color: #1172b8;
+}
+
+.js:hover {
+  color: #ffca28;
+}

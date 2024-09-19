@@ -1,0 +1,10 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.alertMessage {
+  font-size: $font-size-14;
+  line-height: $line-height-normal;
+  color: $synthwave-A2;
+
+  text-align: start;
+}

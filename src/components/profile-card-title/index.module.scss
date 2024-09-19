@@ -1,0 +1,30 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.name {
+  color: $white-2;
+  font-size: $font-size-32;
+
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.role {
+  color: transparent; // Hide the text color to show the gradient
+
+  -webkit-background-clip: text; // Apply gradient to the text (WebKit browsers)
+  background-clip: text; // Standard syntax (not fully supported in all browsers)
+
+  //TODO JJV Clean this
+  /////////////////////////////////////////////////////////
+
+  background-image: linear-gradient(to bottom, $synthwave-N1, $synthwave-N2);
+
+  font-size: $font-size-16;
+}

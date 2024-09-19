@@ -1,0 +1,26 @@
+@import '../../styles/colors';
+@import '../../styles/index.scss';
+
+.cardContainer {
+  margin-top: 7vh;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  // overflow: hidden;
+}
+
+@include media-breakpoint-up(xl) {
+  .cardContainer {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    // overflow: hidden;
+
+    margin-top: 0;
+
+    height: 100vh;
+  }
+}
