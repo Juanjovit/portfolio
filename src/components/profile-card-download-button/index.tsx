@@ -9,7 +9,7 @@ export const ProfileCardDownloadButton: React.FC = () => {
     <>
       <Separator />
       <a
-        href="/cv/CV_Juan_Jose_Vitali.pdf"
+        href={`${process.env.PUBLIC_URL}/cv/CV_Juan_Jose_Vitali.pdf`}
         download
         className={styles.downloadButton}
       >
