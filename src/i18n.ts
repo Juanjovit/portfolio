@@ -9,7 +9,7 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'en',
-    debug: true,
+    debug: process.env.NODE_ENV === 'development',
     detection: {
       order: [
         'querystring',
@@ -22,7 +22,7 @@ i18n
       caches: ['localStorage', 'cookie'],
     },
     backend: {
-      loadPath: '/locales/translations/{{lng}}.json',
+      loadPath: `${process.env.PUBLIC_URL}/locales/translations/{{lng}}.json`,
     },
     interpolation: {
       escapeValue: false,
