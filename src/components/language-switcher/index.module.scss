@@ -1,81 +1,16 @@
 @import '../../styles/colors';
 
-.circle1 {
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-
-  background-image: linear-gradient(to bottom, $synthwave-A1, $synthwave-A2);
-  box-shadow:
-    0 -5px 15px $synthwaveSoft-A1,
-    0 5px 15px $synthwaveSoft-A2;
+.container {
+  display: flex;
 }
 
-.circle2 {
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-
-  background-image: linear-gradient(
-    to top,
-    $synthwave-B2 50%,
-    $synthwave-B1 100%
-  );
-  box-shadow:
-    0px -5px 15px $synthwaveSoft-B1,
-    0px 5px 15px $synthwaveSoft-B2;
+.languageButton {
+  background: none;
+  border: none;
+  color: $white-3;
 }
 
-.circle3 {
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-
-  background-image: linear-gradient(
-    to bottom,
-    $synthwave-C1 5%,
-    $synthwave-C2 50%,
-    $synthwave-C3 80%
-  );
-  box-shadow:
-    0px -5px 15px $synthwaveSoft-C1,
-    0px 0px 15px $synthwaveSoft-C2,
-    0px 5px 15px $synthwaveSoft-C3;
-}
-
-.circle4 {
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-
-  background-image: linear-gradient(to bottom, $synthwave-D1, $synthwave-D2);
-  box-shadow:
-    0px -5px 15px $synthwaveSoft-D1,
-    0px 5px 15px $synthwaveSoft-D2;
-}
-
-.circle5 {
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-
-  background-image: linear-gradient(to bottom, $synthwave-N1, $synthwave-N2);
-  box-shadow:
-    0px -5px 15px $synthwaveSoft-N1,
-    0px 5px 15px $synthwaveSoft-N2;
+.selectedLanguageButton {
+  color: $synthwave-N2;
+  text-shadow: 0 0 20px $synthwave-N1;
 }

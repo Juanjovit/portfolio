@@ -40,8 +40,8 @@ export const WorkItem: React.FC<WorkItemProps> = ({
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.text}>{text}</p>
         <div className={styles.badgesContainer}>
-          {technologies.map((technology) => (
-            <TechnologyBadge text={technology} />
+          {technologies.map((technology, index) => (
+            <TechnologyBadge text={technology} key={index} />
           ))}
         </div>
       </div>
@@ -50,10 +50,17 @@ export const WorkItem: React.FC<WorkItemProps> = ({
       >
         <ul className={styles.listContainer}>
           <li className={styles.listItem}>
-            <WorkItemAButton icon="arrowUpRightFromSquare" href={webSiteUrl} />
+            {webSiteUrl ? (
+              <WorkItemAButton
+                icon="arrowUpRightFromSquare"
+                href={webSiteUrl}
+              />
+            ) : null}
           </li>
           <li className={styles.listItem}>
-            <WorkItemAButton icon="github" href={githubUrl} />
+            {githubUrl ? (
+              <WorkItemAButton icon="github" href={githubUrl} />
+            ) : null}
           </li>
         </ul>
       </div>

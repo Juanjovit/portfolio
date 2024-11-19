@@ -55,31 +55,31 @@
           "date": "2023 - 2024",
           "role": "Fullstack Web Developer",
           "company": "Talentech",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+          "description": "At Talentech, I advanced from a junior front-end role to handling full-stack features. I worked with React, Next.js, and Prisma, integrating AI-driven solutions and developing custom prompts. I also contributed to building a desktop app using Electron Forge, quickly adapting to evolving project needs. The role involved constant learning as I took on new responsibilities and tackled complex problems across multiple startup projects."
         },
         {
           "date": "2022 - 2023",
           "role": "Front-end Web Developer",
           "company": "Talentech",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+          "description": "I started as a trainee Front-end Web Developer at Talentech, specializing in React and Next.js. Working with flexible, task-based assignments, I quickly expanded my skills, gradually tackling more challenging tasks and taking on greater responsibilities. I progressed from building basic components to developing complete features, actively contributing to various startup projects."
         },
         {
           "date": "2021",
-          "role": "Profesor de educación física en escuela primaria",
+          "role": "Primary School PE Teacher (Post-Pandemic)",
           "company": "Colegio Crear",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+          "description": "As a Physical Education Teacher at a primary school during the post-pandemic period, I designed games and activities that respected social distancing guidelines. I engaged students with fun exercises focused on motor skills, teamwork, and physical activity, ensuring a safe environment that followed distancing measures."
         },
         {
           "date": "2020",
-          "role": "Profesor de GYM modalidad virtual",
-          "company": "Davinci",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+          "role": "Virtual Personal Trainer",
+          "company": "Freelance",
+          "description": "During the pandemic, I transitioned to offering online personal training sessions, connecting with clients through video calls and virtual platforms. I led live classes for small groups, providing real-time feedback, exercise guidance, and tailored workout plans to keep participants active and motivated from home."
         },
         {
           "date": "2019",
-          "role": "Profesor en GYM",
-          "company": "Instituto Santa Rosa",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+          "role": "Personal Trainer",
+          "company": "GYM",
+          "description": "I designed diverse workout circuits to keep participants engaged and target different muscle groups. I provided real-time feedback to ensure proper technique and safety, and ended each session with guided stretching to promote relaxation and prevent injuries."
         }
       ]
     },
@@ -88,21 +88,21 @@
       "StudiesData": [
         {
           "date": "2021 - 2023",
-          "role": "Web Design Career",
-          "company": "Davinci",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+          "role": "Web Design and Programming Degree",
+          "company": "Escuela Superior de Arte Multimedial Leonardo Da Vinci",
+          "description": ""
         },
         {
           "date": "2020",
-          "role": "Web Design Course",
-          "company": "Davinci",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+          "role": "Web Design and Programming Course",
+          "company": "Escuela Superior de Arte Multimedial Leonardo Da Vinci",
+          "description": ""
         },
         {
           "date": "2016 - 2019",
-          "role": "Profesorado en educación física",
+          "role": "Physical Education Teacher Degree",
           "company": "Instituto Santa Rosa",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequuntur tenetur et officiis asperiores dolores perspiciatis eveniet ad minima, aperiam consectetur adipisci, sapiente quam laboriosam. Culpa explicabo cumque voluptas recusandae."
+          "description": ""
         }
       ]
     }
@@ -116,34 +116,54 @@
     },
     "WorkData": [
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero facilis dicta ex non sint itaque accusantium excepturi magnam debitis minus.",
-        "title": "Work Item 1",
+        "text": "A start-up project where I worked on developing full-stack features",
+        "title": "Talentech",
         "type": "work",
-        "technologies": ["React", "Prisma", "Next.JS"],
-        "image": "workitem1.png",
-        "alt": "Descriptive alternate text for image 1",
-        "webSiteUrl": "https://github.com/Juanjovit",
-        "githubUrl": "https://github.com/Juanjovit"
+        "technologies": ["Next.js", "React", "Prisma", "Electron"],
+        "image": "talentech.jpg",
+        "alt": "Talentech logo",
+        "webSiteUrl": "",
+        "githubUrl": ""
       },
       {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero facilis dicta ex non sint itaque accusantium excepturi.",
-        "title": "Work Item 2",
+        "text": "A fully functional e-commerce website built during my studies, following the MVC architecture.",
+        "title": "Re-mate.ar",
         "type": "study",
-        "technologies": ["Html", "CSS", "JavaScript"],
-        "image": "workitem2.png",
-        "alt": "Descriptive alternate text for image 2",
-        "webSiteUrl": "https://github.com/Juanjovit",
-        "githubUrl": "https://github.com/Juanjovit"
+        "technologies": ["Node.jS", "Express", "React", "MongoDB"],
+        "image": "re-mate-ar.jpg",
+        "alt": "re-mate-ar website home page",
+        "webSiteUrl": "",
+        "githubUrl": "https://github.com/Juanjovit/node-express-ecommerce-re-mate-ar"
       },
       {
-        "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente pariatur voluptas sit nam similique velit sed re.",
-        "title": "Work Item 3",
+        "text": "An e-commerce application developed as a project to learn Laravel.",
+        "title": "TuManga",
         "type": "study",
-        "technologies": ["PHP"],
-        "image": "workitem3.png",
-        "alt": "Descriptive alternate text for image 3",
-        "webSiteUrl": "https://github.com/Juanjovit",
-        "githubUrl": "https://github.com/Juanjovit"
+        "technologies": ["Laravel"],
+        "image": "no-image.jpg",
+        "alt": "no-image",
+        "webSiteUrl": "",
+        "githubUrl": "https://github.com/Juanjovit/laravel-ecommerce-tu-manga"
+      },
+      {
+        "text": "My first web project integrating a database, designed for an organic gardening e-commerce.",
+        "title": "Organic Garden",
+        "type": "study",
+        "technologies": ["PHP", "MySQL", "Bootstrap"],
+        "image": "organic-garden.jpg",
+        "alt": "organic garden website home page",
+        "webSiteUrl": "",
+        "githubUrl": "https://github.com/Juanjovit/php-ecommerce-organic-garden"
+      },
+      {
+        "text": "A dynamic, single-page website simulating an e-commerce, built with JavaScript.",
+        "title": "G-Music",
+        "type": "study",
+        "technologies": ["JavaScript"],
+        "image": "g-music.jpg",
+        "alt": "g-music logo",
+        "webSiteUrl": "",
+        "githubUrl": "https://github.com/Juanjovit/single-page-g-music"
       }
     ]
   }

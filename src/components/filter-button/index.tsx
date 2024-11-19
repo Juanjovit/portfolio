@@ -23,6 +23,15 @@ export const FilterButton: React.FC<FilterButtonProps> = ({ text }) => {
     setWorkFilter(newValue)
   }
 
+  const handleSetFilter = (text: WorkType) => {
+    let formatedText = text
+
+    if (text === 'estudio') formatedText = 'study'
+    if (text === 'trabajo') formatedText = 'work'
+
+    setWorkFilter(formatedText)
+  }
+
   useEffect(() => {
     updateFilterLanguage()
 
@@ -37,7 +46,7 @@ export const FilterButton: React.FC<FilterButtonProps> = ({ text }) => {
 
   return (
     <div className={styles.buttonContainer}>
-      <button className={styles.button} onClick={() => setWorkFilter(text)}>
+      <button className={styles.button} onClick={() => handleSetFilter(text)}>
         {capitalize(text)}
       </button>
       {isSelected ? <Separator /> : null}

@@ -8,7 +8,11 @@ export const ProfileCardDownloadButton: React.FC = () => {
   return (
     <>
       <Separator />
-      <a href="" className={styles.downloadButton}>
+      <a
+        href="/cv/CV_Juan_Jose_Vitali.pdf"
+        download
+        className={styles.downloadButton}
+      >
         {t('ProfileCard.DownloadCV')}
       </a>
       <Separator />

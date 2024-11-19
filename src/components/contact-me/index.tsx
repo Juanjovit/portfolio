@@ -4,11 +4,12 @@ import { TitleH2 } from '../title-h2'
 import { ContactForm } from '../contact-form'
 import { ContactData } from '../contact-data'
 import { FadeInContainer } from '../fade-in-container'
+import { TitleH2AndLanguageSwitcher } from '../title-h2-and-language-switcher'
 
 const ContactMe: React.FC = () => {
   return (
     <FadeInContainer>
-      <TitleH2 title="Contact Me" />
+      <TitleH2AndLanguageSwitcher title="Contact Me" />
       <Separator />
       <ContactData />
       <TitleH2 title="Send Me a Message" />
