@@ -17,11 +17,22 @@ jobs:
         with:
           node-version: 18
 
+      - name: Inject Environment Variables
+        run: |
+          echo "REACT_APP_EMAILJS_SERVICE_ID=${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }}" >> .env
+          echo "REACT_APP_EMAILJS_TEMPLATE_ID=${{ secrets.REACT_APP_EMAILJS_TEMPLATE_ID }}" >> .env
+          echo "REACT_APP_EMAILJS_PUBLIC_KEY=${{ secrets.REACT_APP_EMAILJS_PUBLIC_KEY }}" >> .env
+          echo "REACT_APP_MY_PHONE_NUMBER=${{ vars.REACT_APP_MY_PHONE_NUMBER }}" >> .env
+          echo "REACT_APP_MY_EMAIL=${{ vars.REACT_APP_MY_EMAIL }}" >> .env
+          echo "REACT_APP_MY_LINKEDIN=${{ vars.REACT_APP_MY_LINKEDIN }}" >> .env
+          echo "REACT_APP_MY_GITHUB=${{ vars.REACT_APP_MY_GITHUB }}" >> .env
+          echo "REACT_APP_MY_INSTAGRAM=${{ vars.REACT_APP_MY_INSTAGRAM }}" >> .env
+
       - name: Install Dependencies
         run: npm ci
 
       - name: Build Project
-        run: CI=false npm run build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
