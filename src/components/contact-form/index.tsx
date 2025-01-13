@@ -52,7 +52,6 @@ export const ContactForm: React.FC = () => {
         )
         .then(
           () => {
-            console.log('SUCCESS!')
             updateSiteStatus('success')
             setFormValues({
               user_name: '',
@@ -63,13 +62,11 @@ export const ContactForm: React.FC = () => {
             setIsSent(true)
           },
           (error) => {
-            console.log('FAILED...', error.text)
             updateSiteStatus('error')
             setIsLoading(false)
           },
         )
     } else {
-      console.log('Please fill in all the fields')
       updateSiteStatus('error')
       setIsLoading(false)
     }

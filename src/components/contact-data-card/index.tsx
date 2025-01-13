@@ -18,7 +18,6 @@ export const ContactDataCard: React.FC<ContactDataCardProps> = ({
   const handleCopy = async () => {
     try {
       await navigator.clipboard.writeText(data)
-      console.log('Data copied to clipboard!')
       setCurrentIcon(secondaryIcon)
       setText('Copied!')
       setTimeout(() => {
